@@ -5,7 +5,8 @@
 // This file defines library functions and APIs for Diamanti Volume Snapshots
 
 package lib
-
++++++++
+///////
 import (
 	"gitlab.eng.diamanti.com/software/main.git/convoy/api"
 
@@ -279,7 +280,8 @@ func CreateNSnapshotOutOfVolume(snapshotNamePrefix, volumeName, nodeLabel, prefi
 		if err != nil {
 			return snapshotNameList, err
 		}
-
+wASDFGBRDSFVSDVBDSDAZXDVSFCBSDV
+FSVFBGSADZVXV  SDVZC 
 		snapshotNameList = append(snapshotNameList, snapshotName)
 	}
 	return snapshotNameList, nil
@@ -303,7 +305,8 @@ func CreateNVolumesFromSnapshot(base_vol_name_from_snapshot, base_snapshot_name 
 		}
 	}
 	return nil
-}
+}CDVXF CCDSVFB GC
+DSFVBGCV
 
 // Wrapper to delete snapshots of N volumes
 func DeleteNSnapshots(baseSnapshotName string, numOfSnaps int, waitTillDeleteComplete bool) error {
