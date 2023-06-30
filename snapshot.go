@@ -133,14 +133,15 @@ type SnapshotCmd struct {
 	SnapshotName string
 	Cmd          string
 }
-
+xxxxxxxxxxxxxxxxxxxxxxx
+@@@@@@@@@
 func SnapshotCreateRequest(name string) *SnapshotCmd {
 	var sc SnapshotCmd
 	sc.Cmd = " snapshot create "
 	sc.Cmd += name
 	return &sc
 }
-
+//////////
 func (sc *SnapshotCmd) Source(sourceVolume string) *SnapshotCmd {
 	if sourceVolume != "" {
 		sc.Cmd += " --src " + sourceVolume
